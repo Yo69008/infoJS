@@ -8,29 +8,22 @@ var document = require("jsdom").jsdom(
 var window =  document.defaultView;
 window.document = document;
 
-//vérifier que l'on peut bien injecter window
 infojs.init(window);
-//infojs.emergency("Hellloooooo");
-
-//description du test suite (sujet du test)
 mocha.describe("Infojs", function(){
 
     mocha.it("infojs is a module ?", function (){
         chai.assert ("object" === typeof infojs);
     });    
-    
     //   description du test case (cas de test)
     mocha.describe("Methods", function () {
-        
         mocha.it("Does Emergency create infojs ?", function(){
-            
         infojs.emergency("fooooo");
         //vérifier si un element est le dernier enfant du body
-        console.log(window.document.body.lastChild);
+//        console.log(window.document.body.lastChild);
         //vérifier id
-        console.log(window.document.body.lastChild.getAttribute("id"));
+//        console.log(window.document.body.lastChild.getAttribute("id"));
         //vérifier tag name
-        console.log(window.document.body.lastChild.tagName);
+ //       console.log(window.document.body.lastChild.tagName);
 
         chai.assert(
             "object" === typeof window.document.body.lastChild
