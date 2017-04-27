@@ -1,6 +1,8 @@
 # infoJS
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e0ec508f17bb45a3b7d273148b18471e)](https://www.codacy.com/app/Yo69008/infoJS?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Yo69008/infoJS&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c1007ba54f34416eb665c54c16f5aa3d)](https://www.codacy.com/app/Yo69008/infoJS?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Yo69008/infoJS&amp;utm_campaign=Badge_Grade)
 [![Build Status](https://travis-ci.org/Yo69008/infoJS.svg?branch=master)](https://travis-ci.org/Yo69008/infoJS)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
+[![npm](https://img.shields.io/npm/v/infojs.svg)]()
 
 This package allows the creation of small pop-ups on the page in order to call the visitors on various information.
 Each pop-up will be presented differently depending on the function it occupies.
