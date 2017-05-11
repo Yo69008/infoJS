@@ -13,6 +13,23 @@ infoJS ->emergency("your message");
 ```
 Fine Pop-up who will be able to greet you at the opening of the site.
 
+## Installation
+Can be installed with [npm](https://www.npmjs.com/package/infojs), there is no need to install style sheet because they are embedded.
+```
+npm install infojs
+```
+
+## Run the tests
+
+Test can be runned in server side after install development dependencies.
+```
+npm install
+```
+Run with Node
+```
+./node_modules/.bin/mocha
+```
+
 ## Demo
 
 <a href="https://www.hostingpics.net/viewer.php?id=628235infojs.png"><img src="https://img4.hostingpics.net/thumbs/mini_628235infojs.png" alt="Heberger image" /></a>
@@ -20,12 +37,11 @@ Fine Pop-up who will be able to greet you at the opening of the site.
 This pop-up appear on the page, with the code, when it is open.
 
 ## Inspiration
-Learnin from PHP [psr-3](http://www.php-fig.org/psr/psr-3/)
+Learning from PHP [psr-3](http://www.php-fig.org/psr/psr-3/)
 
 ## Authors
 
 yo69008
-
 
 ## Copyright
 Under MIT licence
