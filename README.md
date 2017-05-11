@@ -13,7 +13,7 @@ infoJS ->emergency("your message");
 ```
 Fine Pop-up who will be able to greet you at the opening of the site.
 
-##Demo
+## Demo
 
 <a href="https://www.hostingpics.net/viewer.php?id=628235infojs.png"><img src="https://img4.hostingpics.net/thumbs/mini_628235infojs.png" alt="Heberger image" /></a>
 
